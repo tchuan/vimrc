@@ -45,7 +45,7 @@ set guifont=Dejavu\ Sans\ Mono:h10.5
 " Background 
 set background=light
 " ColorScheme
-colorscheme mayansmoke
+colorscheme imperial
 " Wrap too long lines
 set nowrap
 " Show linenum
@@ -105,7 +105,7 @@ set tags=tags;/
 if has("win32")
     let g:tagbar_ctags_bin="V:\\KuaiPan\\SoftWare\\Vim\\vimfiles\\extras\\ctags.exe" 
 else
-    let g:tagbar_ctags_bin=
+    let g:tagbar_ctags_bin="/usr/bin/ctags"
 endif
 
 " NERDTree Support
